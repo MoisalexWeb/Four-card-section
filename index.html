@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+  
+	<title>Frontend Mentor | Four card feature section</title>
+
+  
+  <!-- 
+  	<style>
+		.attribution { font-size: 11px; text-align: center; }
+		.attribution a { color: hsl(228, 45%, 44%); }
+  	</style>
+  -->
+</head>
+<body>
+
+	<header>
+		<h1 class="title" data-light-color>Reliable, efficient delivery <span class="w-600">Powered by Technology</span></h1>
+		<p class="header-p" data-light-color>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+	</header>
+
+	<main>
+		<section class="card__container">
+			<article class="card card--supervisor" data-dark-card>
+				<h2 class="card-title" data-white-text>Supervisor</h2>
+				<p class="card-paragraph" data-light-color>Monitors activity to identify project roadblocks</p>
+				<picture>
+					<img src="./images/icon-supervisor.svg" alt="Supervisor icon">
+				</picture>
+			</article>
+
+			<article class="card card--team" data-dark-card>
+				<h2 class="card-title" data-white-text>Team Builder</h2>
+				<p class="card-paragraph" data-light-color>Scans our talent network to create the optimal team for your project</p>
+				<picture>
+					<img src="./images/icon-team-builder.svg" alt="Team builder icon">
+				</picture>
+			</article>
+
+			<article class="card card--karma" data-dark-card>
+				<h2 class="card-title" data-white-text>Karma</h2>
+				<p class="card-paragraph" data-light-color>Regularly evaluates our talent to ensure quality</p>
+				<picture>
+					<img src="./images/icon-karma.svg" alt="Karma icon">
+				</picture>
+			</article>
+
+			<article class="card card--calculator" data-dark-card>
+				<h2 class="card-title" data-white-text>Calculator</h2>
+				<p class="card-paragraph" data-light-color>Uses data from past projects to provide better delivery estimates </p>
+				<picture>
+					<img src="./images/icon-calculator.svg" alt="Calculator icon">
+				</picture>
+			</article>
+		</section>
+	</main>
+
+	<button class="theme-btn" aria-label="Change theme dark and light">
+		<img src="./images/dark.png" alt="Moon" class="theme-img">
+	</button>
+  
+  <!-- 
+	<p class="attribution">
+	  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+	  Coded by <a href="#">Your Name Here</a>.
+	</p>
+-->
+
+	<script src="./script.js"></script>
+  
+</body>
+</html>
